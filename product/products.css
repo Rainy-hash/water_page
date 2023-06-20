@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #cfd8dc;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1920px;
+    min-width: 320px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(52, 85, 104);
+    margin-top: 20px;
+}
+
+.header_img_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: #555;
+    overflow: none;
+    
+}
+
+.navbar a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #bdbaba;
+}
+
+img {
+    position: relative;
+    height: 30vw;
+    width: auto;
+}
+
+.hr_container {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #44b9bdb4;
+    margin: 20px 0;
+    width: 30vw;
+}
+  
+.main-section {
+    padding: 10px 40px;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_container {
+    display: flex;
+    justify-content: center;
+}
+
+.wata {
+    height: 300px;
+    width: 500px;
+}
+
+.mald {
+    order: 1;
+}
+
+.glacier {
+    order: 2;
+}
+
+.kilima {
+    order: 3;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.video_container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 70px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: #3498db;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f618d;
+    box-shadow: 0 4px 8px 0 rgba(8, 10, 12, 0.651), 0 6px 20px 0 rgba(55, 146, 182, 0.842);
+}
+
+input[type="submit"]:active {
+    background-color: #20333f;
+}
+
+#email {
+    border-style: none;
+}
+
+#submit {
+    height: 20px;
+    font-size: 12px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: right;
+    color: rgba(228, 228, 228, 0.5);
+    margin: 15px;
+}
+
+.rainy a {
+    font-size: 10px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.rainy a:hover {
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .header_img_container {
+      padding: 10px;
+    }
+}
